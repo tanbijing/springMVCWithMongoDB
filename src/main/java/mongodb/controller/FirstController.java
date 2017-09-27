@@ -29,6 +29,7 @@ public class FirstController {
 	public String firstMongodb(){
 		personService.insert("tom", 4, "zj");
 		return personService.search().toString();
+//		return "first/list";
 	}
 	@RequestMapping("/list")
 	public ModelAndView list(){
